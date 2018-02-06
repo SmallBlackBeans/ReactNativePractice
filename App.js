@@ -25,10 +25,9 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component {
-
     constructor(props) {
       super(props);
-    
+
       this.state = {
         times: 0
       };
@@ -86,7 +85,7 @@ export default class App extends Component {
                     margin: 10
                 }}>Fading in</Text>
             </FadeInView> */
-        //<LayoutAnimator > </LayoutAnimator> 
+        //<LayoutAnimator > </LayoutAnimator>
         //<ComplexComponent > </ComplexComponent>
 
     Text>li*4

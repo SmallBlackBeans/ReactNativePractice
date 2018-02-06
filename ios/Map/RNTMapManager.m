@@ -21,7 +21,7 @@ RCT_EXPORT_VIEW_PROPERTY(pitchEnabled, BOOL)
 
 RCT_CUSTOM_VIEW_PROPERTY(region, MKCoordinateRegion, RNTMap)
 {
-  [view setRegion:json ? [RCTConvert MKCoordinateRegion:json] : defaultView.region animated:YES];
+  //[view setRegion:json ? [RCTConvert  MKCoordinateRegion:json] : defaultView.region animated:YES];
 }
 
 @end

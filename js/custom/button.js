@@ -12,6 +12,8 @@ export default class MyButton extends Component {
     _onPressButton() {
         console.log('韩承海真帅');
     }
+
+
     render() {
         return (
             <View>
